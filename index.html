@@ -43,7 +43,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html">BootZard - Bootstrap Wizard Template</a>
+					<a class="navbar-brand" href="index.html">Womanity Ecossistema</a>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="top-navbar-1">
@@ -106,43 +106,50 @@
 
                     		<h3>Cadastro Womanity Ecossistema</h3>
                     		<p>Preencha os campos obrigatórios *</p>
+                            <!-- Etapas do Formulário: -->
                     		<div class="f1-steps">
                     			<div class="f1-progress">
                     			    <div class="f1-progress-line" data-now-value="12.5" data-number-of-steps="4" style="width: 12.5%;"></div>
                     			</div>
+                                <!-- Etapa 1 : Criar Conta -->
                     			<div class="f1-step active">
                     				<div class="f1-step-icon"><i class="fa fa-key"></i></div>
                     				<p>Criar Conta</p>
                     			</div>
+                                 <!-- Etapa 2 : Formulário Tipo Organizacional -->
                     			<div class="f1-step">
                     				<div class="f1-step-icon"><i class="fa fa-user"></i></div>
                     				<p>Organizacionais</p>
                     			</div>
+                                 <!-- Etapa 3 : Formulário Tipo Inicitiva -->
                     		    <div class="f1-step">
                     				<div class="f1-step-icon"><i class="fa fa-twitter"></i></div>
                     				<p>Iniciativa</p>
                     			</div>
+                                <!-- Etapa 4 : Envio de dados -->
                                 <div class="f1-step">
                                     <div class="f1-step-icon"><i class="fa fa-question"></i></div>
                                     <p>Enviar Dados</p>
                                 </div>
 
-                    		</div>
+                    		</div> <!--Fim Etapas do Formuário-->
+
+                            <!-- Formulário Etapa 1:  Criar Conta -->
                     		
                     		<fieldset>
                     		    <h4>Criar Conta:</h4>
                                 
-
+                                <!-- E-mail -->
                                 <div class="form-group">
                                     <label class="sr-only" for="f1-email">Email</label>
                                     <input type="text" name="f1-email" placeholder="Email..." class="f1-email form-control" id="f1-email">
                                 </div>
-
+                                 <!-- Senha-->
                                 <div class="form-group">
                                     <label class="sr-only" for="f1-password">Senha</label>
                                     <input type="password" name="f1-password" placeholder="Senha..." class="f1-password form-control" id="f1-password">
                                 </div>
-
+                                 <!-- Confirma Senha-->
                                  <div class="form-group">
                                     <label class="sr-only" for="f1-repeat-password">Confirmar Senha</label>
                                     <input type="password" name="f1-repeat-password" placeholder="Confirmar Senha..." 
@@ -157,33 +164,38 @@
                                 </div>
                             -->
 
+<!--Tipo: Ong/Iniciativa-->
 
   <div class="row">
-  <div class="col-md-12">     
-  <div class="radio">
-    <p class="text-left"><strong>Você está se inscrevendo como:</strong></p>
-  <label>
-    <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-    Organizaçāo
-  </label>
-</div>
+     <div class="col-md-12">     
+         <div class="radio">
+            <p class="text-left"><strong>Você está se inscrevendo como:</strong></p>
+             <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                Organizaçāo
+            </label>
+        </div>
+
 <div class="radio">
-  <label>
-    <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-    Iniciativa
-  </label>
-</div>                          
+            <label>
+                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+            Iniciativa
+            </label>
+</div> <!--Fim Ong/Inicitiva--> 
 
 
-<div class="row">
-    
+
+<!--Checkbox Carta e Princípios-->                        
+
+
+<div class="row">  
     <div class="col-md-12">          
       <div class="form-group">
         <div class="checkbox">
           <label>
             <input type="checkbox" data-error="Você deve marcar este campo!" required>
            <ul>
-                  <li> Li e concordo com a carta <a href = "#" id ="check1" data-toggle="modal" data-target="#login-modal"> de príncipios e critérios </a> </li>
+                   Li e concordo com a carta <a href = "#" id ="check1" data-toggle="modal" data-target="#login-modal"> de príncipios e critérios </a> 
                     <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel" id= "login-modal">
                       <div class="modal-dialog" role="document">
                         <div class="modal-content">
@@ -197,12 +209,15 @@
 Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus. Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.
 
 Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt sensibus.</p>
-    
-                </ul>
+        </ul>
+                
       </label>
       
     </div>
   </div>
+
+
+  <!--Checkbox Política de Privacidade-->    
 
   <div class= "row">
 <div class="col-md-12">          
@@ -211,7 +226,7 @@ Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, m
           <label>
             <input type="checkbox" data-error="Você deve marcar este campo!" required>
            <ul>
-                  <li> Li e concordo com a  <a href = "#" id ="check2" data-toggle="modal" data-target="#login-modal2"> Política de Privacidade </a> </li>
+                   Li e concordo com a  <a href = "#" id ="check2" data-toggle="modal" data-target="#login-modal2"> Política de Privacidade </a> 
                     <div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel" id= "login-modal2">
                       <div class="modal-dialog" role="document">
                         <div class="modal-content">
@@ -233,16 +248,16 @@ Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, m
   </div>
 
 
-
-
-
-
+                   <!--Botāo Próximo-->
 
 
                                 <div class="f1-buttons">
-                                    <button type="button" class="btn btn-next">Next</button>
+                                    <button type="button" class="btn btn-next">Próximo</button>
                                 </div>
                             </fieldset>
+
+
+                   <!--Formulário tipo: Organizacional-->
 
                             <fieldset>
                                 <h4>Dados Organizacionais:</h4>

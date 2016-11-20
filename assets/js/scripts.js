@@ -19,6 +19,10 @@ function bar_progress(progress_line_object, direction) {
 	progress_line_object.attr('style', 'width: ' + new_value + '%;').data('now-value', new_value);
 }
 
+function open_dialog(title, message, type){
+    sweetAlert(title, message, type);
+}
+
 jQuery(document).ready(function() {
 	
     /*
@@ -111,6 +115,6 @@ jQuery(document).ready(function() {
     	// fields validation
     	
     });
-    
-    
+
+
 });
